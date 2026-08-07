@@ -18,12 +18,12 @@ importers:
   media-removal:
     dependencies:
       '@constructorfleet/extension-sdk':
-        specifier: 1.0.0-dev.6400978b00e8
-        version: 1.0.0-dev.6400978b00e8(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
+        specifier: 1.0.0
+        version: 1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
     devDependencies:
       '@constructorfleet/extension-ui':
-        specifier: 1.0.0-dev.6400978b00e8
-        version: 1.0.0-dev.6400978b00e8(react@19.2.6)
+        specifier: 1.0.0
+        version: 1.0.0(react@19.2.6)
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -49,12 +49,12 @@ importers:
   watch-history:
     dependencies:
       '@constructorfleet/extension-sdk':
-        specifier: 1.0.0-dev.6400978b00e8
-        version: 1.0.0-dev.6400978b00e8(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
+        specifier: 1.0.0
+        version: 1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
     devDependencies:
       '@constructorfleet/extension-ui':
-        specifier: 1.0.0-dev.6400978b00e8
-        version: 1.0.0-dev.6400978b00e8(react@18.3.1)
+        specifier: 1.0.0
+        version: 1.0.0(react@18.3.1)
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -80,12 +80,12 @@ importers:
   watch-stats:
     dependencies:
       '@constructorfleet/extension-sdk':
-        specifier: 1.0.0-dev.6400978b00e8
-        version: 1.0.0-dev.6400978b00e8(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
+        specifier: 1.0.0
+        version: 1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
     devDependencies:
       '@constructorfleet/extension-ui':
-        specifier: 1.0.0-dev.6400978b00e8
-        version: 1.0.0-dev.6400978b00e8(react@18.3.1)
+        specifier: 1.0.0
+        version: 1.0.0(react@18.3.1)
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -114,8 +114,8 @@ packages:
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
     engines: {node: '>=0.1.90'}
 
-  '@constructorfleet/extension-sdk@1.0.0-dev.6400978b00e8':
-    resolution: {integrity: sha512-X6JTcnYGgLA2jWcuz55zLcnSq/mPlf6iN97SAruMjg5Vm00Md0azrIqJQbH1biNovzVSW+YhPL4xaCjhTQePeQ==, tarball: https://npm.pkg.github.com/download/@constructorfleet/extension-sdk/1.0.0-dev.6400978b00e8/933aad8a69808012f12b45dda0e3270590fe5648}
+  '@constructorfleet/extension-sdk@1.0.0':
+    resolution: {integrity: sha512-SIH9loQBDcdN8Ovm7kumdAWjiUuo59KA1i8RRKkIySYHOJQn36+EEdEq+SrKqXY2fJZgPvbTga80J054TeoAHw==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       '@types/express': ^5.0.6
@@ -124,8 +124,8 @@ packages:
       winston: ^3.19.0
       zod: ^4.3.6
 
-  '@constructorfleet/extension-ui@1.0.0-dev.6400978b00e8':
-    resolution: {integrity: sha512-bLQ70my0VOak1+OiHofwzm0R8Dn157Mzio1xKVB+bZAMqFd3JLtbCIF3HsudH2J+CamsoqrjSq43lEn+HuVGPQ==, tarball: https://npm.pkg.github.com/download/@constructorfleet/extension-ui/1.0.0-dev.6400978b00e8/e492bc6b3b4669e57eefcd409869fdfef57e48a7}
+  '@constructorfleet/extension-ui@1.0.0':
+    resolution: {integrity: sha512-2EFW34xquMKf3aBlX8GlEtui6uVyAPmC6Hzsme9g1pP88q2hVBJ2SgLtg7Ilasc+Jr0lAcpe8nMSSCwCx30SXA==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       react: ^19.2.6
@@ -882,7 +882,7 @@ snapshots:
 
   '@colors/colors@1.6.0': {}
 
-  '@constructorfleet/extension-sdk@1.0.0-dev.6400978b00e8(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)':
+  '@constructorfleet/extension-sdk@1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)':
     dependencies:
       '@types/express': 5.0.6
       express: 5.2.1
@@ -890,11 +890,11 @@ snapshots:
       winston: 3.19.0
       zod: 4.3.6
 
-  '@constructorfleet/extension-ui@1.0.0-dev.6400978b00e8(react@18.3.1)':
+  '@constructorfleet/extension-ui@1.0.0(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
-  '@constructorfleet/extension-ui@1.0.0-dev.6400978b00e8(react@19.2.6)':
+  '@constructorfleet/extension-ui@1.0.0(react@19.2.6)':
     dependencies:
       react: 19.2.6
 

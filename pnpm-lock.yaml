@@ -18,12 +18,12 @@ importers:
   media-removal:
     dependencies:
       '@constructorfleet/extension-sdk':
-        specifier: 1.0.0
-        version: 1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
+        specifier: 1.0.1
+        version: 1.0.1(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
     devDependencies:
       '@constructorfleet/extension-ui':
-        specifier: 1.0.0
-        version: 1.0.0(react@19.2.6)
+        specifier: 1.0.1
+        version: 1.0.1(react@19.2.6)
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -52,12 +52,12 @@ importers:
   watch-history:
     dependencies:
       '@constructorfleet/extension-sdk':
-        specifier: 1.0.0
-        version: 1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
+        specifier: 1.0.1
+        version: 1.0.1(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
     devDependencies:
       '@constructorfleet/extension-ui':
-        specifier: 1.0.0
-        version: 1.0.0(react@18.3.1)
+        specifier: 1.0.1
+        version: 1.0.1(react@18.3.1)
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -89,12 +89,12 @@ importers:
   watch-stats:
     dependencies:
       '@constructorfleet/extension-sdk':
-        specifier: 1.0.0
-        version: 1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
+        specifier: 1.0.1
+        version: 1.0.1(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)
     devDependencies:
       '@constructorfleet/extension-ui':
-        specifier: 1.0.0
-        version: 1.0.0(react@18.3.1)
+        specifier: 1.0.1
+        version: 1.0.1(react@18.3.1)
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -123,8 +123,8 @@ packages:
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
     engines: {node: '>=0.1.90'}
 
-  '@constructorfleet/extension-sdk@1.0.0':
-    resolution: {integrity: sha512-SIH9loQBDcdN8Ovm7kumdAWjiUuo59KA1i8RRKkIySYHOJQn36+EEdEq+SrKqXY2fJZgPvbTga80J054TeoAHw==}
+  '@constructorfleet/extension-sdk@1.0.1':
+    resolution: {integrity: sha512-ga4ExbDynL/ilVHfUUKBt/6zI8/R167NW2hMO2c7C+6CAmPrPYNOa/t9uweiLxHL6a+kYBNL7M9b+JeW9jWozQ==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       '@types/express': ^5.0.6
@@ -133,8 +133,8 @@ packages:
       winston: ^3.19.0
       zod: ^4.3.6
 
-  '@constructorfleet/extension-ui@1.0.0':
-    resolution: {integrity: sha512-2EFW34xquMKf3aBlX8GlEtui6uVyAPmC6Hzsme9g1pP88q2hVBJ2SgLtg7Ilasc+Jr0lAcpe8nMSSCwCx30SXA==}
+  '@constructorfleet/extension-ui@1.0.1':
+    resolution: {integrity: sha512-gCy8slHQ0RJI7OwJe8RUp4XEeZr3rPVgBsDYx+5Paf1YW1kjA9V46HyuP7z+DLrURaigoxy4UqgeMfj5J4jYOA==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       react: ^19.2.6
@@ -985,7 +985,7 @@ snapshots:
 
   '@colors/colors@1.6.0': {}
 
-  '@constructorfleet/extension-sdk@1.0.0(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)':
+  '@constructorfleet/extension-sdk@1.0.1(@types/express@5.0.6)(express@5.2.1)(typeorm@0.3.29)(winston@3.19.0)(zod@4.3.6)':
     dependencies:
       '@types/express': 5.0.6
       express: 5.2.1
@@ -993,11 +993,11 @@ snapshots:
       winston: 3.19.0
       zod: 4.3.6
 
-  '@constructorfleet/extension-ui@1.0.0(react@18.3.1)':
+  '@constructorfleet/extension-ui@1.0.1(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
-  '@constructorfleet/extension-ui@1.0.0(react@19.2.6)':
+  '@constructorfleet/extension-ui@1.0.1(react@19.2.6)':
     dependencies:
       react: 19.2.6
 

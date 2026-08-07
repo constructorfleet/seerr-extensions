@@ -1,6 +1,6 @@
 {
   "name": "@constructorfleet/extension-watch-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example Seerr extension: brings play counts from Tautulli or Tracearr into Seerr.",
   "license": "MIT",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
     "zod": "^4.3.6"
   },
   "dependencies": {
-    "@constructorfleet/extension-sdk": "1.0.0"
+    "@constructorfleet/extension-sdk": "1.0.1"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "@types/node": "22.19.0",
     "typeorm": "0.3.29",
     "zod": "4.3.6",
-    "@constructorfleet/extension-ui": "1.0.0",
+    "@constructorfleet/extension-ui": "1.0.1",
     "react": "18.3.1",
     "@types/react": "18.3.12",
     "swr": "2.2.5"

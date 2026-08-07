@@ -1,0 +1,37 @@
+{
+  "name": "@constructorfleet/extension-watch-stats",
+  "version": "1.0.0",
+  "description": "Example Seerr extension: brings play counts from Tautulli or Tracearr into Seerr.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc --project tsconfig.panel.json",
+    "typecheck": "tsc --project tsconfig.json --noEmit && tsc --project tsconfig.panel.json --noEmit"
+  },
+  "peerDependencies": {
+    "typeorm": "^0.3.29",
+    "zod": "^4.3.6"
+  },
+  "dependencies": {
+    "@constructorfleet/extension-sdk": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/constructorfleet/seerr-extensions.git",
+    "directory": "watch-stats"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/node": "22.19.0",
+    "typeorm": "0.3.29",
+    "zod": "4.3.6"
+  },
+  "files": [
+    "dist",
+    "seerr-extension.json",
+    "README.md"
+  ]
+}

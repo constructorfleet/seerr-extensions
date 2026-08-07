@@ -1,0 +1,21 @@
+{
+  "name": "@constructorfleet/seerr-extensions",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Monorepo of Seerr extensions published to GitHub Packages.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/constructorfleet/seerr-extensions.git"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck",
+    "publish:all": "pnpm -r publish --access restricted --no-git-checks"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/node": "22.19.0"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
